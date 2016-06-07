@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+
+.WrapperHeader{
+  background: url("https://images.unsplash.com/photo-1463608666382-cbb244a7bea2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=616c787399a43382f93fc87ccec04889") no-repeat center center fixed;
+  background-position: center center;
+  background-size: cover;
+  margin: 10px;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+ul.navigation{
+  text-align: center;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+
+}
+
+.profile-picture{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /*don't forget prefixes*/
+  background-image: url("https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkVAAAAJGM0OWNhMzdkLWZmMTQtNDk1ZS1iM2FjLTc0YzQzY2VhNjcyMg.jpg");
+  background-position: center center;
+  /* as mentioned by Vad: */
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; left: 0; top: 0;
+}
+
+.profile-name {
+  text-decoration-color: black;
+  text-align: center;
+  border-color: red;
+  border-width: 5px;
+}
+
+.hello {
+  background-color: black;
+}
